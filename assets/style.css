@@ -194,7 +194,7 @@ nav .menu button {
     line-height: 30px;
     width: 80%;
     text-align: center;
-    margin: auto;
+    margin: 0 auto 50px;
 }
 
 .services-cards {
