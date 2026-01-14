@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Readex+Pro:wght@160..700&display=swap');
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.dark-color {
+    color: #181818;
+}
+
+/* Header Section */
+header {
+    background: url("../assets/img/developer.png"), url("../assets/img/header_bg.png"), #FFF8F3;
+    background-position: 23px 15px, bottom right;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav .logo {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #181818;
+}
+
+nav .menu {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+nav .menu button {
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .hero-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #181818;
+    margin: 0 0 5px 0;
+}
+
+.hero .hero-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin: 0 0 20px 0;
+}
+
+.hero .hero-content p {
+    font-size: 18px;
+    margin: 0 200px 30px 0;
+    line-height: 30px;
+}
+
+.hero .hero-cta {
+    display: flex;
+    gap: 30px;
+}
+
+.hero .hero-cta .download-cv {
+    padding: 17px 18px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero .hero-cta .contact-btn {
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FD6E0A;
+    cursor: pointer;
+}
+
+.hero .hero-image img {
+    vertical-align: middle;
+    margin-right: -200px;
+}
+
+/* About Section */
+.about {
+    padding: 130px 0;
+}
+
+.about .about-box {
+    padding: 130px 155px;
+    background-color: #FFF8F3;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-box h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-box p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.about-box .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-info h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Services Section */
+.services {
+    padding: 0 0 130px 0;
+}
+
+.services .heading h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services .heading p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-cards {
+    display: flex;
+    gap: 24px;
+}
+
+.service-card {
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(153, 153, 153, 0.1);
+}
+
+.service-card img {
+    margin-bottom: 30px;
+}
+
+.service-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* Summary Section */
+.summary {
+    padding-bottom: 113px;
+}
+
+.summary .heading h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.summary-details {
+    display: flex;
+    gap: 70px;
+}
+
+.summary-heading h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.education-details h1, .experience-details h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.education-details h3, .experience-details h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.education-details p, .experience-details p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.summary-details hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.summary .download-cv-btn {
+    text-align: center;
+}
+
+.download-cv-btn button {
+    margin-top: 20px;
+    padding: 17px 18px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Contact Section */
+.contact {
+    padding: 130px 0;
+    background-color: #FFF8F3;
+}
+
+.contact .container {
+    display: flex;
+    gap: 120px;
+}
+
+.contact-info h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.contact-info .social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #FD6E0A;
+    cursor: pointer;
+}
+
+.contact-form h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #A9A9A9;
+}
+
+.form-submit-btn {
+    padding: 17px 18px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
